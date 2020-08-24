@@ -479,11 +479,9 @@ say:
 # Comments
 # -------
 comment:
-  enable: false
+  enable: true
   icon: icon-chat-3-line
   tips:
-    - 点击按钮跳转 GitHub Issues 评论。
-    - 若没有本文 Issue，您可以使用 Comment 模版新建。
 
 # GitHub Issues Link Button
 # https://help.github.com/en/github/searching-for-information-on-github/searching-issues-and-pull-requests
@@ -598,7 +596,7 @@ utterances:
   repo: chienkuo/chienkuo.github.io
   issue-term: pathname
   # label: comment
-  theme: icy-dark
+  theme: github-light
 
 # Show Views / Visitors of the website / page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
